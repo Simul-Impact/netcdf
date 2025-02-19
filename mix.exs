@@ -32,8 +32,8 @@ defmodule NetCDF.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:rustler_precompiled, "~> 0.6.1"},
-      {:rustler, "~> 0.26.0", optional: true},
+      {:rustler_precompiled, "~> 0.8.2"},
+      {:rustler, "~> 0.36.0", optional: true},
       {:ex_doc, "~> 0.29.0", only: :docs}
     ]
   end
